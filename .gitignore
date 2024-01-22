@@ -59,6 +59,7 @@ sysinfo.txt
 crashlytics-build.properties
 
 
+<<<<<<< Updated upstream
 *.DS_Store
 
 Basics/001 Conventions and Syntax/.idea/.idea.001 Conventions and Syntax.dir/.idea/
@@ -76,3 +77,10 @@ Inputs/Assets/Cyberleaf - Horror Ambiences/
 Inputs/Assets/Cyberleaf - Retro SFX/
 
 Inputs/Assets/TextMesh Pro/
+=======
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+.DS_Store
+>>>>>>> Stashed changes
