@@ -1,3 +1,6 @@
 [submodule "Practice/Assets//Tools"]
 	path = Practice/Assets//Tools
 	url = https://github.com/OwynnA/Scripts
+[submodule "Practice/Assets/Tools"]
+	path = Practice/Assets/Tools
+	url = https://github.com/OwynnA/Scripts
