@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -7252738482427220562}
   - component: {fileID: 3817305613651734246}
   - component: {fileID: -1053812202250626311}
+  - component: {fileID: 9135859546407520481}
   m_Layer: 7
   m_Name: Ring
   m_TagString: Untagged
@@ -124,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fd790f7e12a54f57a6e7e053ca0b887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 1
+  seconds: 1.9
 --- !u!54 &314847609627276436
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -134,7 +135,7 @@ Rigidbody:
   m_GameObject: {fileID: 2094952814301659719}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -235,6 +236,41 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   colorIDDataListObj: {fileID: 11400000, guid: cc9e66b2bceec4ce1ae352f8b6dba7cd, type: 2}
+--- !u!114 &9135859546407520481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094952814301659719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd28fb1e283441bf9ea0a934f2e004e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IDObj: {fileID: 0}
+  matchEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9135859546407520481}
+        m_TargetAssemblyTypeName: ColorMatchBehaviour, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3854568258498601473}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  noMatchEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  noMatchDelayedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  colorIDDataListObj: {fileID: 11400000, guid: cc9e66b2bceec4ce1ae352f8b6dba7cd, type: 2}
 --- !u!1 &8239248216903712504
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,8 +281,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5621430568322501061}
   - component: {fileID: 3854568258498601473}
+  - component: {fileID: 2837099227431797134}
   m_Layer: 7
-  m_Name: Dot
+  m_Name: Hidden Dot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -319,3 +356,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2837099227431797134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8239248216903712504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e34d71c84c5e94b3294246c9ca7d3f5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
