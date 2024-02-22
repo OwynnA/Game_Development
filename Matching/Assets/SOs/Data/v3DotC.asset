@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eee276dfea1f48c8bc540481454f1de, type: 3}
   m_Name: v3DotC
   m_EditorClassIdentifier: 
-  value: {x: -3, y: -4, z: 0}
+  value: {x: 9, y: 4, z: 0}
   lastPos: {x: 0, y: 0, z: 0}

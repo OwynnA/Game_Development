@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -7252738482427220562}
   - component: {fileID: 3817305613651734246}
   - component: {fileID: -2276295848156824317}
+  - component: {fileID: 7908991213128820867}
   - component: {fileID: -5810244328554546580}
   - component: {fileID: -961524968004131839}
   - component: {fileID: 4702627251462163039}
@@ -155,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fd790f7e12a54f57a6e7e053ca0b887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 1.9
+  seconds: 3.5
 --- !u!114 &-7252738482427220562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -314,6 +315,23 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   noMatchDelayedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  colorIDDataListObj: {fileID: 11400000, guid: cc9e66b2bceec4ce1ae352f8b6dba7cd, type: 2}
+--- !u!114 &7908991213128820867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094952814301659719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a4f25cee57146d495e6b29c4ff1e6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IDObj: {fileID: 0}
+  startEvent:
     m_PersistentCalls:
       m_Calls: []
   colorIDDataListObj: {fileID: 11400000, guid: cc9e66b2bceec4ce1ae352f8b6dba7cd, type: 2}
