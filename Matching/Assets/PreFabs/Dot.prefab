@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: -2276295848156824317}
   - component: {fileID: 7908991213128820867}
   - component: {fileID: -5810244328554546580}
+  - component: {fileID: 1985546534682860798}
   - component: {fileID: -961524968004131839}
   - component: {fileID: 4702627251462163039}
   - component: {fileID: 2426322309486264913}
@@ -239,12 +240,36 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: b2a0a9d79920145e086794d05934f676, type: 2}
+        m_TargetAssemblyTypeName: Action, Assembly-CSharp
+        m_MethodName: RasieAction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 82fb8f010f9174a6a868aeb053772ab5, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: CompareValue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 2ded08aee52e14848b07f0195dbd5c5f, type: 2}
+          m_ObjectArgumentAssemblyTypeName: IntData, Assembly-CSharp
+          m_IntArgument: 10
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 2426322309486264913}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 11400000, guid: 2ded08aee52e14848b07f0195dbd5c5f, type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 10
           m_FloatArgument: 0
@@ -390,6 +415,22 @@ MonoBehaviour:
           m_StringArgument: Idle
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1985546534682860798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094952814301659719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66aa6d33173ff4d7c849ddd68329745d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: b2a0a9d79920145e086794d05934f676, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!95 &-961524968004131839
 Animator:
   serializedVersion: 5
