@@ -4,3 +4,6 @@
 [submodule "Matching/Assets/Tools"]
 	path = Matching/Assets/Tools
 	url = https://github.com/OwynnA/Scripts
+[submodule "Fruit Drop/Assets/Tools"]
+	path = Fruit Drop/Assets/Tools
+	url = https://github.com/OwynnA/Scripts
