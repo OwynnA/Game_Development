@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb973e6766a6c4ac5b4b9b19ffb73707, type: 3}
+  m_Name: TrashSpriteList
+  m_EditorClassIdentifier: 
+  SpriteIDList:
+  - {fileID: 11400000, guid: aa83ba640e63e49c0b0f8f7134c23fa7, type: 2}
+  - {fileID: 11400000, guid: b90244130b4f1416ba0167ff7e88662e, type: 2}
+  - {fileID: 11400000, guid: 3da54763393074ee69cdec10d92a83bd, type: 2}
+  currentSprite: {fileID: 11400000, guid: 3da54763393074ee69cdec10d92a83bd, type: 2}

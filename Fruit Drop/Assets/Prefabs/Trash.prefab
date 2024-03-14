@@ -35,13 +35,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879056955667233624}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.42, y: 8.52, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9999997, w: 0.0008702364}
+  m_LocalPosition: {x: -1.4111007, y: 8.519364, z: 0}
   m_LocalScale: {x: 0.47496298, y: 0.47496298, z: 0.47496298}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -179.9}
 --- !u!50 &4060947099387569910
 Rigidbody2D:
   serializedVersion: 4
@@ -229,7 +229,7 @@ MonoBehaviour:
   startEvent:
     m_PersistentCalls:
       m_Calls: []
-  spriteIDDataListObj: {fileID: 0}
+  spriteIDDataListObj: {fileID: 11400000, guid: a4cadda00ee684827bba5268e58a094d, type: 2}
 --- !u!114 &6248255017692858299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879056955667233624}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc5e1a61e3b6d4cd6820fee48a94cab9, type: 3}
   m_Name: 
@@ -263,7 +263,7 @@ MonoBehaviour:
         m_MethodName: ChangeRendererSprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 80fd7fa1ee1804a8fac41b0479692394, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: a4cadda00ee684827bba5268e58a094d, type: 2}
           m_ObjectArgumentAssemblyTypeName: SpriteIDDataList, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
