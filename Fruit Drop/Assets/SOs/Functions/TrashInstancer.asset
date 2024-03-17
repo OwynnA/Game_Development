@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8a35ae4e12d6424dbd0a7cf51f670a4, type: 3}
   m_Name: TrashInstancer
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 879056955667233624, guid: 1eaa13b890fe8408ab3350afd0143b5c, type: 3}

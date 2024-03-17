@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce976f074b95c4bc293e523e29f4411b, type: 3}
-  m_Name: Can
+  m_Script: {fileID: 11500000, guid: b42ed4a22a0904c52b4a2279e37174de, type: 3}
+  m_Name: Floor
   m_EditorClassIdentifier: 
-  newSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}

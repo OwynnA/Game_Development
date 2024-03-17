@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c0461158bdcd4c05842b2e94adea5fe, type: 3}
   m_Name: Trashv3List
   m_EditorClassIdentifier: 
-  vector3DList: []
+  vector3DList:
+  - {fileID: 11400000, guid: 11172d4a110e84d1eba0155abbbbe3a9, type: 2}
+  - {fileID: 11400000, guid: 6625ea22ca7fa49ccb39fbb62f7dac20, type: 2}
+  - {fileID: 11400000, guid: 5da2c2de068ad4a3abf7da1d0be88189, type: 2}
