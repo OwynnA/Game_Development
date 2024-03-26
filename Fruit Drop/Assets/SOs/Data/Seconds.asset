@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8eee276dfea1f48c8bc540481454f1de, type: 3}
-  m_Name: Fruitv3C
+  m_Script: {fileID: 11500000, guid: b92e6cebfbbb3430ea17da6d23b6b255, type: 3}
+  m_Name: Seconds
   m_EditorClassIdentifier: 
-  value: {x: -1, y: 6, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  value: 1.4000008
