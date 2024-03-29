@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8db656204ccdc4170a363b25571dc109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IDObj: {fileID: 11400000, guid: 9e41c3a491b3c43afbe5be41018827ef, type: 2}
+  IDObj: {fileID: 11400000, guid: fa1f47a880e1943a5bbaec59c1b402a0, type: 2}
   startEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -202,18 +202,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 22db4ff3b10634188995a47c8808b86a, type: 2}
-        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   noMatchEvent:
     m_PersistentCalls:
       m_Calls:
@@ -246,7 +234,31 @@ MonoBehaviour:
       m_Calls: []
   partialMatchEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 24ff0488591544ddeb8de3ed600f7554, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: -1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 24ff0488591544ddeb8de3ed600f7554, type: 2}
+          m_ObjectArgumentAssemblyTypeName: IntData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   specialMatchEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -323,7 +335,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.52283335, y: -0.18261671}
+  m_Offset: {x: -0.52283335, y: -0.18041301}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -334,7 +346,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.15621376, y: 0.8204961}
+  m_Size: {x: 0.15621376, y: 0.8249035}
   m_EdgeRadius: 0
 --- !u!61 &7953063849014886210
 BoxCollider2D:
@@ -368,7 +380,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.5269251, y: -0.18041295}
+  m_Offset: {x: 0.5269251, y: -0.1782093}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -379,7 +391,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.13995552, y: 0.81682837}
+  m_Size: {x: 0.13995552, y: 0.82123566}
   m_EdgeRadius: 0
 --- !u!61 &1632470176770778831
 BoxCollider2D:
@@ -458,7 +470,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0020189285, y: -0.18261665}
+  m_Offset: {x: -0.0020189285, y: -0.18041301}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -469,7 +481,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1978426, y: 0.8204962}
+  m_Size: {x: 1.1978426, y: 0.8249035}
   m_EdgeRadius: 0
 --- !u!50 &967515749544865806
 Rigidbody2D:
