@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 4345286208680503705}
   - component: {fileID: 4369572734292769180}
   - component: {fileID: -2758490065993116604}
+  - component: {fileID: 85389212710223178}
   m_Layer: 6
   m_Name: Fruit
   m_TagString: Untagged
@@ -439,3 +440,15 @@ MonoBehaviour:
   foundMatch: 0
   halfMatchAllowed: 0
   spriteIDDataListObj: {fileID: 11400000, guid: 80fd7fa1ee1804a8fac41b0479692394, type: 2}
+--- !u!114 &85389212710223178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4071601333135036172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf44a318951d498b873745050dcc409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
