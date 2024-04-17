@@ -102,7 +102,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 27
+    m_Bits: 31
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -119,7 +119,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.34674644, y: -4.9974833}
+  m_Offset: {x: 0.16175318, y: -3.5380712}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -130,7 +130,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.021936, y: 0.9100418}
+  m_Size: {x: 11.708787, y: 4.157735}
   m_EdgeRadius: 0
 --- !u!114 &3366844392576236788
 MonoBehaviour:
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IDObj: {fileID: 11400000, guid: fa1f47a880e1943a5bbaec59c1b402a0, type: 2}
-  specialMatch: {fileID: 0}
+  specialMatch: {fileID: 11400000, guid: 0aaa9bba3e1994ed68cca0997c573434, type: 2}
   fruitIDList: {fileID: 11400000, guid: 80fd7fa1ee1804a8fac41b0479692394, type: 2}
   matchEvent:
     m_PersistentCalls:
@@ -264,7 +264,7 @@ MonoBehaviour:
       m_Calls: []
   foundMatch: 0
   halfMatchAllowed: 1
-  spriteIDDataListObj: {fileID: 0}
+  spriteIDDataListObj: {fileID: 11400000, guid: 8ff2e84d1356a406a8762f3689a64c87, type: 2}
 --- !u!1 &7507605250224281896
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +319,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 324
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -364,7 +364,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 338
+    m_Bits: 342
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -408,7 +408,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -452,13 +452,13 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 7507605250224281896}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 5f343b6a4f5f94df285f9d2a84c529b9, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 324
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -487,13 +487,13 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 7507605250224281896}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 5f343b6a4f5f94df285f9d2a84c529b9, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 324
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
