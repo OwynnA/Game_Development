@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: -3573269991899979370}
   - component: {fileID: 980564051377106434}
   - component: {fileID: 7615670840012982413}
+  - component: {fileID: 914995824843093238}
   m_Layer: 8
   m_Name: Trash
   m_TagString: Untagged
@@ -276,6 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f550f51431f314908a5acd25ed293c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondsDelay: 1
 --- !u!114 &980564051377106434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,6 +379,34 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0.1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &914995824843093238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879056955667233624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0b16089d4533bb910c6b64dcf65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: eef892b98e76c42dd8af506b7cdfb309, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -3573269991899979370}
+        m_TargetAssemblyTypeName: ImmediateDestroyBehaviour, Assembly-CSharp
+        m_MethodName: TimerDestroyStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
