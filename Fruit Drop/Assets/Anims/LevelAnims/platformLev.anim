@@ -36,7 +36,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -1.21, y: 5.6, z: 0}
+        value: {x: -1.213, y: 5.6, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -46,13 +46,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Ground (5)
+    path: Ground (9)
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 1.77, y: 5.6, z: 0}
+        value: {x: 1.767, y: 5.6, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -62,7 +62,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Ground (6)
+    path: Ground (10)
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
@@ -83,7 +83,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3733032828
+      path: 1916059760
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -92,7 +92,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4121746623
+      path: 1440008893
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -191,7 +191,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -1.21
+        value: -1.213
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -202,7 +202,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Ground (5)
+    path: Ground (9)
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -223,7 +223,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Ground (5)
+    path: Ground (9)
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -244,7 +244,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Ground (5)
+    path: Ground (9)
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -254,7 +254,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1.77
+        value: 1.767
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -265,7 +265,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Ground (6)
+    path: Ground (10)
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -286,7 +286,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Ground (6)
+    path: Ground (10)
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -307,7 +307,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Ground (6)
+    path: Ground (10)
     classID: 4
     script: {fileID: 0}
     flags: 0
